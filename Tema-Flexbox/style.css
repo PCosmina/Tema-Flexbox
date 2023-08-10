@@ -1,0 +1,245 @@
+#home1{
+    background-image: url(img/background-flori-1.jpg);
+   background-size: cover;
+   background-position: center center;
+   color: black;
+}
+
+#contact1 {
+   background-image: url(img/mov.jpg);
+   background-size: cover;
+   background-position: center center;
+   color: black;
+}
+
+#reg1 {
+    background-image: url(img/orange.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: black;
+}
+
+#log1 {
+    background-image: url(img/albastry.jpg);
+   background-size: cover;
+   background-position: center center;
+   color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Papyrus;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+h3 {
+    font-size: 30px;
+    color: plum;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+
+
+
+ .nav-bar ul {
+    list-style-type: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  
+  }
+
+ .nav-bar li {
+    display: inline-block;
+
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    color: #740950;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+  }
+  .nav-bar a:hover {
+    background: pink;
+  }
+
+/*Contact*/
+
+.ct-form {
+    width: 800px;
+    margin: 5% auto;
+}
+
+.form-area {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1.9em;
+}
+
+.msg-area {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.msg-area > textarea {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15px;
+
+}
+
+.details-area {
+    flex:1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.details-area input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.details-area input,
+.details-area button {
+    padding: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.details-area button {
+    background: rgb(175, 97, 163);
+    color: black;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+label {
+    color: black;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-family: audiowide;
+}
+/*Login */
+
+
+.log-form {
+    width: 500px;
+    margin: 5% auto;
+
+}
+/*Register*/
+.reg-form {
+    width: 500px;
+    margin: 5% auto;
+
+}
+
+/*Home*/
+
+.about-us {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    gap: 10px 20px;
+    box-shadow: 2px 2px 5px 3px rgb(159, 159, 117);
+    padding: 40px;
+}
+
+#b-home {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px 3px wheat;
+}
+
+#sh{
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.search {
+  text-align: center;
+   margin: auto;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.produs-1, p {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+.produs-2, p {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+.produs-3, p {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+.produs-4, p {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+.produs-5, p {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+.produs-6, p {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+.products button {
+    background-color: rgb(203, 68, 179);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
